@@ -31,7 +31,7 @@ public class Mostrar {
 	
 	public static void gabarito() {
 		int questao = 1;
-		for(int i = 0; i < Banco.pergunta.length; i++) {
+		for(int i = 0; i < Banco.resposta.length; i++) {
 			System.out.println(questao + ". " + Banco.resposta[i]);
 			questao++;
 		}
